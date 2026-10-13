@@ -1,0 +1,10 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.jiankn/jackpot-calculator",
+  "title": "Jackpot Calculator",
+  "description": "Estimate US lottery taxes, compare cash and annuity, split pool prizes and calculate jackpot odds.",
+  "websiteUrl": "https://jackpotcalculator.com/mcp/",
+  "repository": { "url": "https://github.com/jiankn/jackpot-calculator-mcp", "source": "github" },
+  "version": "0.1.0",
+  "remotes": [{ "type": "streamable-http", "url": "https://jackpot-calculator-mcp.jiankn.workers.dev/mcp" }]
+}

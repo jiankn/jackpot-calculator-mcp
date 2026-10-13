@@ -1,0 +1,365 @@
+{
+  "powerball": {
+    "name": "Powerball",
+    "ticketPrice": 2,
+    "drawDays": "Monday, Wednesday and Saturday at 10:59 p.m. ET",
+    "annuity": {
+      "payments": 30,
+      "growth": 0.05,
+      "description": "one immediate payment followed by 29 annual payments that increase by 5% each year"
+    },
+    "jurisdictions": "45 states, the District of Columbia, Puerto Rico and the U.S. Virgin Islands",
+    "ukPooling": "Since July 21, 2026 Powerball tickets are also sold in the UK; a shared jackpot is split by cash value between UK and U.S. winning tickets.",
+    "sources": [
+      "https://www.powerball.com/faqs?os=f",
+      "https://www.powerball.com/powerball-prize-chart",
+      "https://www.powerball.com/powerball-jackpot-jumps-to-1.5-billion-for-saturday-drawing"
+    ],
+    "checkedOn": "2026-10-01",
+    "deathRule": "If a jackpot winner dies before receiving all annual installments, the balance of the prize will be paid to the winner's estate. Upon receipt of a court order, annual prize payments will continue to be paid to the winner's heirs. Other provisions may also apply depending on the laws of the lottery paying the prize.",
+    "deathRuleSource": "https://www.powerball.com/faqs?os=f",
+    "annuityPricing": {
+      "text": "The cash value is the money needed in the jackpot prize pool on the drawing day to fund the estimated annuity. The annuity factor is made up of interest rates for securities purchased to fund prize payments: the higher the rates, the higher the advertised jackpot. The annuity is an estimate until the Multi-State Lottery Association takes bids on the purchase of securities.",
+      "source": "https://www.powerball.com/faqs?os=f",
+      "checkedOn": "2026-10-02"
+    },
+    "ukSharing": {
+      "text": "If the jackpot is won in both the UK and the U.S., it is split among all winning tickets by cash value; the UK share is transferred and paid by The UK National Lottery, and each U.S. winning ticket may independently choose the annuity or the one-time cash payment.",
+      "source": "https://www.powerball.com/faqs?os=f",
+      "checkedOn": "2026-10-02"
+    },
+    "prizeChart": {
+      "source": "https://www.powerball.com/powerball-prize-chart",
+      "checkedOn": "2026-10-02",
+      "note": "All lower-tier prizes are set cash amounts; California pays pari-mutuel amounts. Power Play multiplies non-jackpot prizes; Match 5 with Power Play is always $2 million; the 10X multiplier is only in play when the advertised jackpot is $150 million or less.",
+      "tiers": [
+        {
+          "match": "5 + Powerball",
+          "prize": null,
+          "odds": 292201338.0
+        },
+        {
+          "match": "5",
+          "prize": 1000000,
+          "odds": 11688053.52
+        },
+        {
+          "match": "4 + Powerball",
+          "prize": 50000,
+          "odds": 913129.18
+        },
+        {
+          "match": "4",
+          "prize": 100,
+          "odds": 36525.17
+        },
+        {
+          "match": "3 + Powerball",
+          "prize": 100,
+          "odds": 14494.11
+        },
+        {
+          "match": "3",
+          "prize": 7,
+          "odds": 579.76
+        },
+        {
+          "match": "2 + Powerball",
+          "prize": 7,
+          "odds": 701.33
+        },
+        {
+          "match": "1 + Powerball",
+          "prize": 4,
+          "odds": 91.98
+        },
+        {
+          "match": "Powerball only",
+          "prize": 4,
+          "odds": 38.32
+        }
+      ],
+      "overallOdds": 24.87,
+      "powerPlay": {
+        "multipliers": [
+          2,
+          3,
+          4,
+          5,
+          10
+        ],
+        "tenXMaxJackpot": 150000000,
+        "matchFivePrize": 2000000
+      }
+    },
+    "drawTimeET": "22:59"
+  },
+  "megaMillions": {
+    "name": "Mega Millions",
+    "ticketPrice": 5,
+    "drawDays": "Tuesday and Friday at 11 p.m. ET",
+    "annuity": {
+      "payments": 30,
+      "growth": 0.05,
+      "description": "one immediate payment followed by 29 annual payments; each payment is 5% bigger than the previous one"
+    },
+    "jurisdictions": "45 states plus the District of Columbia and the U.S. Virgin Islands",
+    "sources": [
+      "https://www.megamillions.com/How-to-Play.aspx",
+      "https://www.megamillions.com/FAQs.aspx"
+    ],
+    "checkedOn": "2026-10-01",
+    "annuityPricing": {
+      "text": "Members of the Mega Millions Consortium meet every Tuesday and Friday morning to estimate the next two jackpots from state sales forecasts. The annuity is based on the actual cash value of the jackpot and that day's 30-year U.S. Treasuries rate, which can change day to day. As much as 70% of sales typically occur on the drawing day, and both options are paid from actual sales, so the final jackpot can differ from the estimate.",
+      "source": "https://www.megamillions.com/FAQs.aspx",
+      "checkedOn": "2026-10-02"
+    },
+    "deathRule": "If a winner who has chosen the Annuity Option dies before receiving all annual payments, Mega Millions will continue to pay the annual payments, as scheduled, to the winner's designated beneficiary or to the winner's estate.",
+    "deathRuleSource": "https://www.megamillions.com/FAQs.aspx",
+    "prizeChart": {
+      "source": "https://www.megamillions.com/How-to-Play.aspx",
+      "checkedOn": "2026-10-02",
+      "note": "Every $5 play includes a multiplier (2X, 3X, 4X, 5X or 10X) randomly assigned at purchase and applied to all non-jackpot prizes; California pays pari-mutuel amounts.",
+      "multiplierOdds": {
+        "2": 2.13,
+        "3": 3.2,
+        "4": 8,
+        "5": 16,
+        "10": 32
+      },
+      "tiers": [
+        {
+          "match": "5 + Mega Ball",
+          "prizes": null,
+          "odds": 290472336
+        },
+        {
+          "match": "5",
+          "prizes": {
+            "2": 2000000,
+            "3": 3000000,
+            "4": 4000000,
+            "5": 5000000,
+            "10": 10000000
+          },
+          "odds": 12629232
+        },
+        {
+          "match": "4 + Mega Ball",
+          "prizes": {
+            "2": 20000,
+            "3": 30000,
+            "4": 40000,
+            "5": 50000,
+            "10": 100000
+          },
+          "odds": 893761
+        },
+        {
+          "match": "4",
+          "prizes": {
+            "2": 1000,
+            "3": 1500,
+            "4": 2000,
+            "5": 2500,
+            "10": 5000
+          },
+          "odds": 38859
+        },
+        {
+          "match": "3 + Mega Ball",
+          "prizes": {
+            "2": 400,
+            "3": 600,
+            "4": 800,
+            "5": 1000,
+            "10": 2000
+          },
+          "odds": 13965
+        },
+        {
+          "match": "3",
+          "prizes": {
+            "2": 20,
+            "3": 30,
+            "4": 40,
+            "5": 50,
+            "10": 100
+          },
+          "odds": 607
+        },
+        {
+          "match": "2 + Mega Ball",
+          "prizes": {
+            "2": 20,
+            "3": 30,
+            "4": 40,
+            "5": 50,
+            "10": 100
+          },
+          "odds": 665
+        },
+        {
+          "match": "1 + Mega Ball",
+          "prizes": {
+            "2": 14,
+            "3": 21,
+            "4": 28,
+            "5": 35,
+            "10": 70
+          },
+          "odds": 86
+        },
+        {
+          "match": "Mega Ball only",
+          "prizes": {
+            "2": 10,
+            "3": 15,
+            "4": 20,
+            "5": 25,
+            "10": 50
+          },
+          "odds": 35
+        }
+      ]
+    },
+    "drawTimeET": "23:00"
+  },
+  "noLotteryStates": {
+    "codes": [
+      "AL",
+      "AK",
+      "HI",
+      "NV",
+      "UT"
+    ],
+    "source": "https://www.fox6now.com/news/5-us-states-without-lottery-envy-grows-1-5b-powerball-jackpot",
+    "note": "官方站列出“45 个州”销售，未列具体名单（页面需 JS）；5 个无彩票州以新闻报道为准，待找到官方名单页后替换出处"
+  },
+  "millionaireForLife": {
+    "name": "Millionaire for Life",
+    "ticketPrice": 5,
+    "drawDays": "Every night at 11:15 p.m. ET",
+    "launched": "2026-02-22",
+    "prizes": {
+      "top": {
+        "label": "Top prize",
+        "annual": 1000000,
+        "cash": 18000000,
+        "match": "5 white balls + Millionaire Ball"
+      },
+      "second": {
+        "label": "Second prize",
+        "annual": 100000,
+        "cash": 2200000,
+        "match": "5 white balls"
+      }
+    },
+    "guaranteedYears": 20,
+    "annuityRule": "Paid every year for 20 years or for the winner's life, whichever is longer. If the winner dies within the first 20 years, the remaining guaranteed payments go to the winner's estate or beneficiary; no payments are made after death once the 20 guaranteed years have passed.",
+    "fixedTwentyYears": "Entities, more than one individual claiming the same ticket, and minors are paid for a fixed 20 years.",
+    "sharedPrize": "If more than one ticket wins the top prize, the annual amount is divided among the winning tickets.",
+    "jurisdictions": [
+      "AR",
+      "CO",
+      "CT",
+      "DC",
+      "GA",
+      "ID",
+      "IA",
+      "IN",
+      "KS",
+      "KY",
+      "MA",
+      "ME",
+      "MI",
+      "MS",
+      "MT",
+      "NY",
+      "NC",
+      "ND",
+      "NE",
+      "NH",
+      "NJ",
+      "OH",
+      "OK",
+      "PA",
+      "RI",
+      "SD",
+      "TN",
+      "VA",
+      "VT",
+      "WV",
+      "WY"
+    ],
+    "sources": [
+      "https://ialottery.com/PDF/GameRules/MillionaireForLifeGameRules.pdf",
+      "https://www.powerball.com/new-millionaire-for-life-launches-feb.-22",
+      "https://www.powerball.com/draw-result?gc=millionaire-life&date=2026-09-16"
+    ],
+    "sourceNote": "Iowa Lottery game specific rules effective Feb. 22, 2026 (cash options $18,000,000 and $2,200,000; 20-year guarantee; payments after death); Powerball launch release (price, nightly drawings, 31 jurisdictions)",
+    "checkedOn": "2026-10-01",
+    "tiers": [
+      {
+        "match": "5 + Millionaire Ball",
+        "prize": "$1,000,000 a year for life",
+        "odds": 22910580
+      },
+      {
+        "match": "5",
+        "prize": "$100,000 a year for life",
+        "odds": 5727645
+      },
+      {
+        "match": "4 + Millionaire Ball",
+        "prize": 7500,
+        "odds": 86455.018868
+      },
+      {
+        "match": "4",
+        "prize": 500,
+        "odds": 21613.754717
+      },
+      {
+        "match": "3 + Millionaire Ball",
+        "prize": 250,
+        "odds": 1662.596517
+      },
+      {
+        "match": "3",
+        "prize": 50,
+        "odds": 415.649129
+      },
+      {
+        "match": "2 + Millionaire Ball",
+        "prize": 25,
+        "odds": 97.799795
+      },
+      {
+        "match": "2",
+        "prize": 8,
+        "odds": 24.449949
+      },
+      {
+        "match": "1 + Millionaire Ball",
+        "prize": 8,
+        "odds": 15.647967
+      }
+    ],
+    "overallOdds": 8.467665,
+    "numbers": {
+      "white": {
+        "count": 5,
+        "max": 58
+      },
+      "millionaireBall": {
+        "max": 5
+      }
+    },
+    "results": {
+      "dataset": "https://data.ny.gov/Government-Finance/Lottery-Millionaire-For-Life-Winning-Numbers-Beginn/a4w9-a3tp",
+      "api": "https://data.ny.gov/resource/a4w9-a3tp.json",
+      "publisher": "New York State Gaming Commission (Open NY)"
+    }
+  }
+}

@@ -1,0 +1,2412 @@
+{
+ "note": "州税档来自 Tax Foundation 2026（各州税务机关法定税率汇编，2026-01-01 生效）；预扣率逐项核对官方原文。户主身份暂用单身税档。",
+ "states": [
+  {
+   "code": "AK",
+   "name": "Alaska",
+   "sellsPowerball": false,
+   "sellsMegaMillions": false,
+   "taxesLottery": false,
+   "brackets": {
+    "single": [],
+    "joint": []
+   },
+   "bracketsSource": "https://taxfoundation.org/data/all/state/state-income-tax-rates-2026/",
+   "bracketsAsOf": "2026-01-01",
+   "withholding": null
+  },
+  {
+   "code": "AL",
+   "name": "Alabama",
+   "sellsPowerball": false,
+   "sellsMegaMillions": false,
+   "taxesLottery": true,
+   "brackets": {
+    "single": [
+     [
+      0.0,
+      0.02
+     ],
+     [
+      500.0,
+      0.04
+     ],
+     [
+      3000.0,
+      0.05
+     ]
+    ],
+    "joint": [
+     [
+      0.0,
+      0.02
+     ],
+     [
+      1000.0,
+      0.04
+     ],
+     [
+      6000.0,
+      0.05
+     ]
+    ]
+   },
+   "bracketsSource": "https://taxfoundation.org/data/all/state/state-income-tax-rates-2026/",
+   "bracketsAsOf": "2026-01-01",
+   "withholding": null
+  },
+  {
+   "code": "AR",
+   "name": "Arkansas",
+   "sellsPowerball": true,
+   "sellsMegaMillions": true,
+   "taxesLottery": true,
+   "brackets": {
+    "single": [
+     [
+      0.0,
+      0.02
+     ],
+     [
+      4600.0,
+      0.039
+     ]
+    ],
+    "joint": [
+     [
+      0.0,
+      0.02
+     ],
+     [
+      4600.0,
+      0.039
+     ]
+    ]
+   },
+   "bracketsSource": "https://taxfoundation.org/data/all/state/state-income-tax-rates-2026/",
+   "bracketsAsOf": "2026-01-01",
+   "withholding": {
+    "rate": null,
+    "verified": false,
+    "candidate": 0.039,
+    "note": "未在官方页面原文核对到，页面显示“以州彩票局为准”"
+   }
+  },
+  {
+   "code": "AZ",
+   "name": "Arizona",
+   "sellsPowerball": true,
+   "sellsMegaMillions": true,
+   "taxesLottery": true,
+   "brackets": {
+    "single": [
+     [
+      0.0,
+      0.025
+     ]
+    ],
+    "joint": [
+     [
+      0.0,
+      0.025
+     ]
+    ]
+   },
+   "bracketsSource": "https://taxfoundation.org/data/all/state/state-income-tax-rates-2026/",
+   "bracketsAsOf": "2026-01-01",
+   "withholding": {
+    "rate": null,
+    "verified": false,
+    "candidate": 0.025,
+    "note": "未在官方页面原文核对到，页面显示“以州彩票局为准”"
+   }
+  },
+  {
+   "code": "CA",
+   "name": "California",
+   "sellsPowerball": true,
+   "sellsMegaMillions": true,
+   "taxesLottery": false,
+   "brackets": {
+    "single": [
+     [
+      0.0,
+      0.01
+     ],
+     [
+      11079.0,
+      0.02
+     ],
+     [
+      26264.0,
+      0.04
+     ],
+     [
+      41452.0,
+      0.06
+     ],
+     [
+      57542.0,
+      0.08
+     ],
+     [
+      72724.0,
+      0.09300000000000001
+     ],
+     [
+      371479.0,
+      0.10300000000000001
+     ],
+     [
+      445771.0,
+      0.113
+     ],
+     [
+      742953.0,
+      0.12300000000000001
+     ],
+     [
+      1000000.0,
+      0.133
+     ]
+    ],
+    "joint": [
+     [
+      0.0,
+      0.01
+     ],
+     [
+      22158.0,
+      0.02
+     ],
+     [
+      52528.0,
+      0.04
+     ],
+     [
+      82904.0,
+      0.06
+     ],
+     [
+      115084.0,
+      0.08
+     ],
+     [
+      145448.0,
+      0.09300000000000001
+     ],
+     [
+      742958.0,
+      0.10300000000000001
+     ],
+     [
+      891542.0,
+      0.113
+     ],
+     [
+      1000000.0,
+      0.12300000000000001
+     ],
+     [
+      1485906.0,
+      0.133
+     ]
+    ]
+   },
+   "bracketsSource": "https://taxfoundation.org/data/all/state/state-income-tax-rates-2026/",
+   "bracketsAsOf": "2026-01-01",
+   "note": "California Lottery winnings (including Powerball and Mega Millions) are exempt from California income tax.",
+   "withholding": {
+    "rate": 0.0,
+    "verified": true,
+    "source": "https://www.ftb.ca.gov/file/personal/income-types/gambling.html",
+    "quote": "We do not tax winnings from the California Lottery, including SuperLotto, Powerball, and Mega Millions",
+    "checkedOn": "2026-10-01"
+   }
+  },
+  {
+   "code": "CO",
+   "name": "Colorado",
+   "sellsPowerball": true,
+   "sellsMegaMillions": true,
+   "taxesLottery": true,
+   "brackets": {
+    "single": [
+     [
+      0.0,
+      0.044000000000000004
+     ]
+    ],
+    "joint": [
+     [
+      0.0,
+      0.044000000000000004
+     ]
+    ]
+   },
+   "bracketsSource": "https://taxfoundation.org/data/all/state/state-income-tax-rates-2026/",
+   "bracketsAsOf": "2026-01-01",
+   "withholding": {
+    "rate": 0.04,
+    "verified": true,
+    "source": "https://www.coloradolottery.com/en/winners/claiming-prizes/",
+    "quote": "4% state",
+    "checkedOn": "2026-10-01"
+   }
+  },
+  {
+   "code": "CT",
+   "name": "Connecticut",
+   "sellsPowerball": true,
+   "sellsMegaMillions": true,
+   "taxesLottery": true,
+   "brackets": {
+    "single": [
+     [
+      0.0,
+      0.02
+     ],
+     [
+      10000.0,
+      0.045
+     ],
+     [
+      50000.0,
+      0.055
+     ],
+     [
+      100000.0,
+      0.06
+     ],
+     [
+      200000.0,
+      0.065
+     ],
+     [
+      250000.0,
+      0.069
+     ],
+     [
+      500000.0,
+      0.0699
+     ]
+    ],
+    "joint": [
+     [
+      0.0,
+      0.02
+     ],
+     [
+      20000.0,
+      0.045
+     ],
+     [
+      100000.0,
+      0.055
+     ],
+     [
+      200000.0,
+      0.06
+     ],
+     [
+      400000.0,
+      0.065
+     ],
+     [
+      500000.0,
+      0.069
+     ],
+     [
+      1000000.0,
+      0.0699
+     ]
+    ]
+   },
+   "bracketsSource": "https://taxfoundation.org/data/all/state/state-income-tax-rates-2026/",
+   "bracketsAsOf": "2026-01-01",
+   "withholding": {
+    "rate": 0.0699,
+    "verified": true,
+    "source": "https://www.ctlottery.org/taxinformation",
+    "quote": "currently 6.99%",
+    "checkedOn": "2026-10-01"
+   }
+  },
+  {
+   "code": "DC",
+   "name": "District of Columbia",
+   "sellsPowerball": true,
+   "sellsMegaMillions": true,
+   "taxesLottery": true,
+   "brackets": {
+    "single": [
+     [
+      0.0,
+      0.04
+     ],
+     [
+      10000.0,
+      0.06
+     ],
+     [
+      40000.0,
+      0.065
+     ],
+     [
+      60000.0,
+      0.085
+     ],
+     [
+      250000.0,
+      0.0925
+     ],
+     [
+      500000.0,
+      0.0975
+     ],
+     [
+      1000000.0,
+      0.1075
+     ]
+    ],
+    "joint": [
+     [
+      0.0,
+      0.04
+     ],
+     [
+      10000.0,
+      0.06
+     ],
+     [
+      40000.0,
+      0.065
+     ],
+     [
+      60000.0,
+      0.085
+     ],
+     [
+      250000.0,
+      0.0925
+     ],
+     [
+      500000.0,
+      0.0975
+     ],
+     [
+      1000000.0,
+      0.1075
+     ]
+    ]
+   },
+   "bracketsSource": "https://taxfoundation.org/data/all/state/state-income-tax-rates-2026/",
+   "bracketsAsOf": "2026-01-01",
+   "withholding": {
+    "rate": null,
+    "verified": false,
+    "candidate": null,
+    "note": "未在官方页面原文核对到，页面显示“以州彩票局为准”"
+   }
+  },
+  {
+   "code": "DE",
+   "name": "Delaware",
+   "sellsPowerball": true,
+   "sellsMegaMillions": true,
+   "taxesLottery": true,
+   "brackets": {
+    "single": [
+     [
+      2000.0,
+      0.022000000000000002
+     ],
+     [
+      5000.0,
+      0.039
+     ],
+     [
+      10000.0,
+      0.048
+     ],
+     [
+      20000.0,
+      0.052000000000000005
+     ],
+     [
+      25000.0,
+      0.0555
+     ],
+     [
+      60000.0,
+      0.066
+     ]
+    ],
+    "joint": [
+     [
+      2000.0,
+      0.022000000000000002
+     ],
+     [
+      5000.0,
+      0.039
+     ],
+     [
+      10000.0,
+      0.048
+     ],
+     [
+      20000.0,
+      0.052000000000000005
+     ],
+     [
+      25000.0,
+      0.0555
+     ],
+     [
+      60000.0,
+      0.066
+     ]
+    ]
+   },
+   "bracketsSource": "https://taxfoundation.org/data/all/state/state-income-tax-rates-2026/",
+   "bracketsAsOf": "2026-01-01",
+   "withholding": {
+    "rate": null,
+    "verified": false,
+    "candidate": null,
+    "note": "未在官方页面原文核对到，页面显示“以州彩票局为准”"
+   }
+  },
+  {
+   "code": "FL",
+   "name": "Florida",
+   "sellsPowerball": true,
+   "sellsMegaMillions": true,
+   "taxesLottery": false,
+   "brackets": {
+    "single": [],
+    "joint": []
+   },
+   "bracketsSource": "https://taxfoundation.org/data/all/state/state-income-tax-rates-2026/",
+   "bracketsAsOf": "2026-01-01",
+   "withholding": {
+    "rate": 0.0,
+    "verified": true,
+    "source": "https://taxfoundation.org/data/all/state/state-income-tax-rates-2026/",
+    "quote": "no state income tax on wages/lottery (Tax Foundation 2026)",
+    "checkedOn": "2026-10-01"
+   }
+  },
+  {
+   "code": "GA",
+   "name": "Georgia",
+   "sellsPowerball": true,
+   "sellsMegaMillions": true,
+   "taxesLottery": true,
+   "brackets": {
+    "single": [
+     [
+      0.0,
+      0.0499
+     ]
+    ],
+    "joint": [
+     [
+      0.0,
+      0.0499
+     ]
+    ]
+   },
+   "bracketsSource": "https://www.bdo.com/insights/tax/georgia-enacts-income-tax-reduction-bill",
+   "bracketsAsOf": "2026-01-01",
+   "note": "Georgia cut its 2026 income tax rate from 5.19% to 4.99% (HB 463, signed May 2026, retroactive to January 1, 2026).",
+   "withholding": {
+    "rate": 0.0499,
+    "verified": true,
+    "source": "https://www.galottery.com/en-us/player-zone/player-faqs.html",
+    "quote": "Georgia state income tax of 4.99%",
+    "checkedOn": "2026-10-01"
+   }
+  },
+  {
+   "code": "HI",
+   "name": "Hawaii",
+   "sellsPowerball": false,
+   "sellsMegaMillions": false,
+   "taxesLottery": true,
+   "brackets": {
+    "single": [
+     [
+      0.0,
+      0.013999999999999999
+     ],
+     [
+      9600.0,
+      0.032
+     ],
+     [
+      14400.0,
+      0.055
+     ],
+     [
+      19200.0,
+      0.064
+     ],
+     [
+      24000.0,
+      0.068
+     ],
+     [
+      36000.0,
+      0.07200000000000001
+     ],
+     [
+      48000.0,
+      0.076
+     ],
+     [
+      125000.0,
+      0.079
+     ],
+     [
+      175000.0,
+      0.0825
+     ],
+     [
+      225000.0,
+      0.09
+     ],
+     [
+      275000.0,
+      0.1
+     ],
+     [
+      325000.0,
+      0.11
+     ]
+    ],
+    "joint": [
+     [
+      0.0,
+      0.013999999999999999
+     ],
+     [
+      19200.0,
+      0.032
+     ],
+     [
+      28800.0,
+      0.055
+     ],
+     [
+      38400.0,
+      0.064
+     ],
+     [
+      48000.0,
+      0.068
+     ],
+     [
+      72000.0,
+      0.07200000000000001
+     ],
+     [
+      96000.0,
+      0.076
+     ],
+     [
+      250000.0,
+      0.079
+     ],
+     [
+      350000.0,
+      0.0825
+     ],
+     [
+      450000.0,
+      0.09
+     ],
+     [
+      550000.0,
+      0.1
+     ],
+     [
+      650000.0,
+      0.11
+     ]
+    ]
+   },
+   "bracketsSource": "https://taxfoundation.org/data/all/state/state-income-tax-rates-2026/",
+   "bracketsAsOf": "2026-01-01",
+   "withholding": null
+  },
+  {
+   "code": "IA",
+   "name": "Iowa",
+   "sellsPowerball": true,
+   "sellsMegaMillions": true,
+   "taxesLottery": true,
+   "brackets": {
+    "single": [
+     [
+      0.0,
+      0.038
+     ]
+    ],
+    "joint": [
+     [
+      0.0,
+      0.038
+     ]
+    ]
+   },
+   "bracketsSource": "https://taxfoundation.org/data/all/state/state-income-tax-rates-2026/",
+   "bracketsAsOf": "2026-01-01",
+   "withholding": {
+    "rate": 0.038,
+    "verified": true,
+    "source": "https://ialottery.com/pages/faqs/FAQ-ClaimingPrizes.aspx",
+    "quote": "3.8% state withholding tax",
+    "checkedOn": "2026-10-01",
+    "threshold": 600,
+    "thresholdRule": "over",
+    "thresholdQuote": "The Iowa Lottery does not withhold tax for prizes of $600 or less. By law, prizes of more than $600 will face a 3.8% state withholding tax.",
+    "thresholdCheckedOn": "2026-10-02"
+   }
+  },
+  {
+   "code": "ID",
+   "name": "Idaho",
+   "sellsPowerball": true,
+   "sellsMegaMillions": true,
+   "taxesLottery": true,
+   "brackets": {
+    "single": [
+     [
+      4811.0,
+      0.053
+     ]
+    ],
+    "joint": [
+     [
+      9622.0,
+      0.053
+     ]
+    ]
+   },
+   "bracketsSource": "https://taxfoundation.org/data/all/state/state-income-tax-rates-2026/",
+   "bracketsAsOf": "2026-01-01",
+   "withholding": {
+    "rate": 0.053,
+    "verified": true,
+    "source": "https://www.idaholottery.com/pages/faqs",
+    "quote": "State of Idaho tax rate is 5.3%",
+    "checkedOn": "2026-10-01"
+   }
+  },
+  {
+   "code": "IL",
+   "name": "Illinois",
+   "sellsPowerball": true,
+   "sellsMegaMillions": true,
+   "taxesLottery": true,
+   "brackets": {
+    "single": [
+     [
+      0.0,
+      0.0495
+     ]
+    ],
+    "joint": [
+     [
+      0.0,
+      0.0495
+     ]
+    ]
+   },
+   "bracketsSource": "https://taxfoundation.org/data/all/state/state-income-tax-rates-2026/",
+   "bracketsAsOf": "2026-01-01",
+   "withholding": {
+    "rate": 0.0495,
+    "verified": true,
+    "source": "https://tax.illinois.gov/research/taxrates/income.html",
+    "quote": "4.95 percent of net income is required to be withheld from … Illinois lottery winnings each time a single payment is over $1,000 for both Illinois residents and nonresidents",
+    "checkedOn": "2026-10-05",
+    "threshold": 1000,
+    "thresholdRule": "atLeast",
+    "thresholdQuote": "You must withhold Illinois Income Tax each time you make a single payment of Illinois lottery winnings of $1,000 or more.",
+    "thresholdCheckedOn": "2026-10-05",
+    "note": "门槛原文出自伊利诺伊税务局 Publication 130：https://tax.illinois.gov/research/publications/pubs/who-is-required-to-withhold-illinois-income-tax/withholding-illinois-income-tax-for-lottery-or-gambling-winnings.html"
+   }
+  },
+  {
+   "code": "IN",
+   "name": "Indiana",
+   "sellsPowerball": true,
+   "sellsMegaMillions": true,
+   "taxesLottery": true,
+   "brackets": {
+    "single": [
+     [
+      0.0,
+      0.029500000000000002
+     ]
+    ],
+    "joint": [
+     [
+      0.0,
+      0.029500000000000002
+     ]
+    ]
+   },
+   "bracketsSource": "https://taxfoundation.org/data/all/state/state-income-tax-rates-2026/",
+   "bracketsAsOf": "2026-01-01",
+   "note": "Indiana residents also owe county income tax (not included).",
+   "withholding": {
+    "rate": null,
+    "verified": false,
+    "candidate": null,
+    "note": "未在官方页面原文核对到，页面显示“以州彩票局为准”"
+   }
+  },
+  {
+   "code": "KS",
+   "name": "Kansas",
+   "sellsPowerball": true,
+   "sellsMegaMillions": true,
+   "taxesLottery": true,
+   "brackets": {
+    "single": [
+     [
+      0.0,
+      0.052000000000000005
+     ],
+     [
+      23000.0,
+      0.0558
+     ]
+    ],
+    "joint": [
+     [
+      0.0,
+      0.052000000000000005
+     ],
+     [
+      46000.0,
+      0.0558
+     ]
+    ]
+   },
+   "bracketsSource": "https://taxfoundation.org/data/all/state/state-income-tax-rates-2026/",
+   "bracketsAsOf": "2026-01-01",
+   "withholding": {
+    "rate": 0.05,
+    "verified": true,
+    "source": "https://www.ksrevenue.gov/kw100.html",
+    "quote": "instead 5% of the proceeds paid",
+    "checkedOn": "2026-10-01"
+   }
+  },
+  {
+   "code": "KY",
+   "name": "Kentucky",
+   "sellsPowerball": true,
+   "sellsMegaMillions": true,
+   "taxesLottery": true,
+   "brackets": {
+    "single": [
+     [
+      0.0,
+      0.035
+     ]
+    ],
+    "joint": [
+     [
+      0.0,
+      0.035
+     ]
+    ]
+   },
+   "bracketsSource": "https://taxfoundation.org/data/all/state/state-income-tax-rates-2026/",
+   "bracketsAsOf": "2026-01-01",
+   "withholding": {
+    "rate": 0.035,
+    "verified": true,
+    "source": "https://revenue.ky.gov/Forms/42A003-March%202026.pdf",
+    "quote": "withholding tax rate for gambling winnings is 3.5 percent",
+    "checkedOn": "2026-10-01"
+   }
+  },
+  {
+   "code": "LA",
+   "name": "Louisiana",
+   "sellsPowerball": true,
+   "sellsMegaMillions": true,
+   "taxesLottery": true,
+   "brackets": {
+    "single": [
+     [
+      0.0,
+      0.03
+     ]
+    ],
+    "joint": [
+     [
+      0.0,
+      0.03
+     ]
+    ]
+   },
+   "bracketsSource": "https://taxfoundation.org/data/all/state/state-income-tax-rates-2026/",
+   "bracketsAsOf": "2026-01-01",
+   "withholding": {
+    "rate": 0.03,
+    "verified": true,
+    "source": "https://louisianalottery.com/players-guide/claim-a-prize/",
+    "quote": "3% state taxes",
+    "checkedOn": "2026-10-01",
+    "threshold": 5000,
+    "thresholdRule": "atLeast",
+    "thresholdQuote": "withhold 24% federal taxes from each prize over $5,000 and 3% state taxes from prizes of $5,000 or more",
+    "thresholdCheckedOn": "2026-10-02"
+   }
+  },
+  {
+   "code": "MA",
+   "name": "Massachusetts",
+   "sellsPowerball": true,
+   "sellsMegaMillions": true,
+   "taxesLottery": true,
+   "brackets": {
+    "single": [
+     [
+      0.0,
+      0.05
+     ],
+     [
+      1083150.0,
+      0.09
+     ]
+    ],
+    "joint": [
+     [
+      0.0,
+      0.05
+     ],
+     [
+      1083150.0,
+      0.09
+     ]
+    ]
+   },
+   "bracketsSource": "https://taxfoundation.org/data/all/state/state-income-tax-rates-2026/",
+   "bracketsAsOf": "2026-01-01",
+   "note": "Includes the 4% surtax on income over $1,083,150.",
+   "withholding": {
+    "rate": null,
+    "verified": false,
+    "candidate": 0.05,
+    "note": "未在官方页面原文核对到，页面显示“以州彩票局为准”"
+   }
+  },
+  {
+   "code": "MD",
+   "name": "Maryland",
+   "sellsPowerball": true,
+   "sellsMegaMillions": true,
+   "taxesLottery": true,
+   "brackets": {
+    "single": [
+     [
+      0.0,
+      0.02
+     ],
+     [
+      1000.0,
+      0.03
+     ],
+     [
+      2000.0,
+      0.04
+     ],
+     [
+      3000.0,
+      0.0475
+     ],
+     [
+      100000.0,
+      0.05
+     ],
+     [
+      125000.0,
+      0.0525
+     ],
+     [
+      150000.0,
+      0.055
+     ],
+     [
+      250000.0,
+      0.0575
+     ],
+     [
+      500000.0,
+      0.0625
+     ],
+     [
+      1000000.0,
+      0.065
+     ]
+    ],
+    "joint": [
+     [
+      0.0,
+      0.02
+     ],
+     [
+      1000.0,
+      0.03
+     ],
+     [
+      2000.0,
+      0.04
+     ],
+     [
+      3000.0,
+      0.0475
+     ],
+     [
+      150000.0,
+      0.05
+     ],
+     [
+      175000.0,
+      0.0525
+     ],
+     [
+      225000.0,
+      0.055
+     ],
+     [
+      300000.0,
+      0.0575
+     ],
+     [
+      600000.0,
+      0.0625
+     ],
+     [
+      1200000.0,
+      0.065
+     ]
+    ]
+   },
+   "bracketsSource": "https://taxfoundation.org/data/all/state/state-income-tax-rates-2026/",
+   "bracketsAsOf": "2026-01-01",
+   "note": "Maryland residents also owe county income tax; the calculator adds the average county rate (2.25%–3.30% by county). Nonresident withholding is 8.75%.",
+   "withholdingNonresident": 0.0875,
+   "withholding": {
+    "rate": 0.095,
+    "verified": true,
+    "source": "https://www.marylandcomptroller.gov/legal-library/ta-01-jul-2025.html",
+    "quote": "9.5 percent on a resident's winnings; nonresident 8.75 percent",
+    "checkedOn": "2026-10-01"
+   }
+  },
+  {
+   "code": "ME",
+   "name": "Maine",
+   "sellsPowerball": true,
+   "sellsMegaMillions": true,
+   "taxesLottery": true,
+   "brackets": {
+    "single": [
+     [
+      0.0,
+      0.057999999999999996
+     ],
+     [
+      27399.0,
+      0.0675
+     ],
+     [
+      64849.0,
+      0.07150000000000001
+     ]
+    ],
+    "joint": [
+     [
+      0.0,
+      0.057999999999999996
+     ],
+     [
+      54849.0,
+      0.0675
+     ],
+     [
+      129749.0,
+      0.07150000000000001
+     ]
+    ]
+   },
+   "bracketsSource": "https://taxfoundation.org/data/all/state/state-income-tax-rates-2026/",
+   "bracketsAsOf": "2026-01-01",
+   "withholding": {
+    "rate": 0.0715,
+    "verified": true,
+    "source": "https://www.mainelottery.com/players_info/prizes.html",
+    "quote": "24% and 7.15% respectively",
+    "checkedOn": "2026-10-01"
+   }
+  },
+  {
+   "code": "MI",
+   "name": "Michigan",
+   "sellsPowerball": true,
+   "sellsMegaMillions": true,
+   "taxesLottery": true,
+   "brackets": {
+    "single": [
+     [
+      0.0,
+      0.0425
+     ]
+    ],
+    "joint": [
+     [
+      0.0,
+      0.0425
+     ]
+    ]
+   },
+   "bracketsSource": "https://taxfoundation.org/data/all/state/state-income-tax-rates-2026/",
+   "bracketsAsOf": "2026-01-01",
+   "note": "Detroit and some other Michigan cities levy a local income tax (not included).",
+   "withholding": {
+    "rate": 0.0425,
+    "verified": true,
+    "source": "https://faq.michiganlottery.com/prize-claim-information-e6e95589/how-to-claim-prizes-by-mail-7ca1b72c",
+    "quote": "4.25 percent in state tax",
+    "checkedOn": "2026-10-01"
+   }
+  },
+  {
+   "code": "MN",
+   "name": "Minnesota",
+   "sellsPowerball": true,
+   "sellsMegaMillions": true,
+   "taxesLottery": true,
+   "brackets": {
+    "single": [
+     [
+      0.0,
+      0.0535
+     ],
+     [
+      33310.0,
+      0.068
+     ],
+     [
+      109430.0,
+      0.0785
+     ],
+     [
+      203150.0,
+      0.09849999999999999
+     ]
+    ],
+    "joint": [
+     [
+      0.0,
+      0.0535
+     ],
+     [
+      48700.0,
+      0.068
+     ],
+     [
+      193480.0,
+      0.0785
+     ],
+     [
+      337930.0,
+      0.09849999999999999
+     ]
+    ]
+   },
+   "bracketsSource": "https://taxfoundation.org/data/all/state/state-income-tax-rates-2026/",
+   "bracketsAsOf": "2026-01-01",
+   "withholding": {
+    "rate": 0.0725,
+    "verified": true,
+    "source": "https://www.mnlottery.com/claim-a-prize",
+    "quote": "withhold 7.25 percent in Minnesota state income taxes",
+    "checkedOn": "2026-10-01"
+   }
+  },
+  {
+   "code": "MO",
+   "name": "Missouri",
+   "sellsPowerball": true,
+   "sellsMegaMillions": true,
+   "taxesLottery": true,
+   "brackets": {
+    "single": [
+     [
+      1348.0,
+      0.02
+     ],
+     [
+      2696.0,
+      0.025
+     ],
+     [
+      4044.0,
+      0.03
+     ],
+     [
+      5392.0,
+      0.035
+     ],
+     [
+      6740.0,
+      0.04
+     ],
+     [
+      8088.0,
+      0.045
+     ],
+     [
+      9436.0,
+      0.047
+     ]
+    ],
+    "joint": [
+     [
+      1348.0,
+      0.02
+     ],
+     [
+      2696.0,
+      0.025
+     ],
+     [
+      4044.0,
+      0.03
+     ],
+     [
+      5392.0,
+      0.035
+     ],
+     [
+      6740.0,
+      0.04
+     ],
+     [
+      8088.0,
+      0.045
+     ],
+     [
+      9436.0,
+      0.047
+     ]
+    ]
+   },
+   "bracketsSource": "https://taxfoundation.org/data/all/state/state-income-tax-rates-2026/",
+   "bracketsAsOf": "2026-01-01",
+   "withholding": {
+    "rate": 0.04,
+    "verified": true,
+    "source": "https://www.molottery.com/claiming-prizes/claiming-prizes.jsp",
+    "quote": "withhold 4% Missouri state tax",
+    "checkedOn": "2026-10-01",
+    "threshold": 600,
+    "thresholdRule": "over",
+    "thresholdQuote": "withhold 4% Missouri state tax on prizes of $600.01 or more, along with 24% federal tax for prizes of more than $5,000",
+    "thresholdCheckedOn": "2026-10-02"
+   }
+  },
+  {
+   "code": "MS",
+   "name": "Mississippi",
+   "sellsPowerball": true,
+   "sellsMegaMillions": true,
+   "taxesLottery": true,
+   "brackets": {
+    "single": [
+     [
+      10000.0,
+      0.04
+     ]
+    ],
+    "joint": [
+     [
+      10000.0,
+      0.04
+     ]
+    ]
+   },
+   "bracketsSource": "https://taxfoundation.org/data/all/state/state-income-tax-rates-2026/",
+   "bracketsAsOf": "2026-01-01",
+   "withholding": {
+    "rate": null,
+    "verified": false,
+    "candidate": null,
+    "note": "未在官方页面原文核对到，页面显示“以州彩票局为准”"
+   }
+  },
+  {
+   "code": "MT",
+   "name": "Montana",
+   "sellsPowerball": true,
+   "sellsMegaMillions": true,
+   "taxesLottery": true,
+   "brackets": {
+    "single": [
+     [
+      0.0,
+      0.047
+     ],
+     [
+      47500.0,
+      0.0565
+     ]
+    ],
+    "joint": [
+     [
+      0.0,
+      0.047
+     ],
+     [
+      95000.0,
+      0.0565
+     ]
+    ]
+   },
+   "bracketsSource": "https://taxfoundation.org/data/all/state/state-income-tax-rates-2026/",
+   "bracketsAsOf": "2026-01-01",
+   "withholding": {
+    "rate": 0.059,
+    "verified": true,
+    "source": "https://montanalottery.com/claim-your-prize/",
+    "quote": "withhold 5.9% for Montana state tax",
+    "checkedOn": "2026-10-01"
+   }
+  },
+  {
+   "code": "NC",
+   "name": "North Carolina",
+   "sellsPowerball": true,
+   "sellsMegaMillions": true,
+   "taxesLottery": true,
+   "brackets": {
+    "single": [
+     [
+      0.0,
+      0.039900000000000005
+     ]
+    ],
+    "joint": [
+     [
+      0.0,
+      0.039900000000000005
+     ]
+    ]
+   },
+   "bracketsSource": "https://taxfoundation.org/data/all/state/state-income-tax-rates-2026/",
+   "bracketsAsOf": "2026-01-01",
+   "withholding": {
+    "rate": 0.0399,
+    "verified": true,
+    "source": "https://nclottery.com/NewsBlogDetails/2026/3/19/Craven-County-mans-persistence-pays-off-with-2-million-Powerball-win-",
+    "quote": "由 2026 年官方到手金额反推一致（24% + 3.99%）",
+    "checkedOn": "2026-10-01"
+   }
+  },
+  {
+   "code": "ND",
+   "name": "North Dakota",
+   "sellsPowerball": true,
+   "sellsMegaMillions": true,
+   "taxesLottery": true,
+   "brackets": {
+    "single": [
+     [
+      48475.0,
+      0.0195
+     ],
+     [
+      244825.0,
+      0.025
+     ]
+    ],
+    "joint": [
+     [
+      80975.0,
+      0.0195
+     ],
+     [
+      298075.0,
+      0.025
+     ]
+    ]
+   },
+   "bracketsSource": "https://taxfoundation.org/data/all/state/state-income-tax-rates-2026/",
+   "bracketsAsOf": "2026-01-01",
+   "withholding": {
+    "rate": 0.025,
+    "verified": true,
+    "source": "https://www.lottery.nd.gov/faqs",
+    "quote": "state income tax of 2.50%",
+    "checkedOn": "2026-10-01"
+   }
+  },
+  {
+   "code": "NE",
+   "name": "Nebraska",
+   "sellsPowerball": true,
+   "sellsMegaMillions": true,
+   "taxesLottery": true,
+   "brackets": {
+    "single": [
+     [
+      0.0,
+      0.0246
+     ],
+     [
+      4130.0,
+      0.0351
+     ],
+     [
+      24760.0,
+      0.0455
+     ]
+    ],
+    "joint": [
+     [
+      0.0,
+      0.0246
+     ],
+     [
+      8250.0,
+      0.0351
+     ],
+     [
+      49530.0,
+      0.0455
+     ]
+    ]
+   },
+   "bracketsSource": "https://taxfoundation.org/data/all/state/state-income-tax-rates-2026/",
+   "bracketsAsOf": "2026-01-01",
+   "withholding": {
+    "rate": 0.035,
+    "verified": true,
+    "source": "https://revenue.nebraska.gov/sites/default/files/doc/business/Cir_En_2025/2026cir_en_whole.pdf",
+    "quote": "flat Nebraska income tax withholding rate of 3.5% of the winnings",
+    "checkedOn": "2026-10-01"
+   }
+  },
+  {
+   "code": "NH",
+   "name": "New Hampshire",
+   "sellsPowerball": true,
+   "sellsMegaMillions": true,
+   "taxesLottery": false,
+   "brackets": {
+    "single": [],
+    "joint": []
+   },
+   "bracketsSource": "https://taxfoundation.org/data/all/state/state-income-tax-rates-2026/",
+   "bracketsAsOf": "2026-01-01",
+   "withholding": {
+    "rate": 0.0,
+    "verified": true,
+    "source": "https://taxfoundation.org/data/all/state/state-income-tax-rates-2026/",
+    "quote": "no state income tax on wages/lottery (Tax Foundation 2026)",
+    "checkedOn": "2026-10-01"
+   }
+  },
+  {
+   "code": "NJ",
+   "name": "New Jersey",
+   "sellsPowerball": true,
+   "sellsMegaMillions": true,
+   "taxesLottery": true,
+   "brackets": {
+    "single": [
+     [
+      0.0,
+      0.013999999999999999
+     ],
+     [
+      20000.0,
+      0.0175
+     ],
+     [
+      35000.0,
+      0.035
+     ],
+     [
+      40000.0,
+      0.0553
+     ],
+     [
+      75000.0,
+      0.0637
+     ],
+     [
+      500000.0,
+      0.0897
+     ],
+     [
+      1000000.0,
+      0.1075
+     ]
+    ],
+    "joint": [
+     [
+      0.0,
+      0.013999999999999999
+     ],
+     [
+      20000.0,
+      0.0175
+     ],
+     [
+      50000.0,
+      0.0245
+     ],
+     [
+      70000.0,
+      0.035
+     ],
+     [
+      80000.0,
+      0.0553
+     ],
+     [
+      150000.0,
+      0.0637
+     ],
+     [
+      500000.0,
+      0.0897
+     ],
+     [
+      1000000.0,
+      0.1075
+     ]
+    ]
+   },
+   "bracketsSource": "https://taxfoundation.org/data/all/state/state-income-tax-rates-2026/",
+   "bracketsAsOf": "2026-01-01",
+   "note": "New Jersey taxes lottery prizes over $10,000; smaller prizes are exempt.",
+   "exemptUpTo": 10000,
+   "withholding": {
+    "rate": 0.05,
+    "verified": true,
+    "source": "https://www.nj.gov/treasury/taxation/lotterygamblingwinnings.shtml",
+    "quote": "5% for payouts $10,001-$500,000; 8% over $500,000",
+    "checkedOn": "2026-10-01"
+   }
+  },
+  {
+   "code": "NM",
+   "name": "New Mexico",
+   "sellsPowerball": true,
+   "sellsMegaMillions": true,
+   "taxesLottery": true,
+   "brackets": {
+    "single": [
+     [
+      0.0,
+      0.015
+     ],
+     [
+      5500.0,
+      0.032
+     ],
+     [
+      16500.0,
+      0.043
+     ],
+     [
+      33500.0,
+      0.047
+     ],
+     [
+      66500.0,
+      0.049
+     ],
+     [
+      210000.0,
+      0.059000000000000004
+     ]
+    ],
+    "joint": [
+     [
+      0.0,
+      0.015
+     ],
+     [
+      8000.0,
+      0.032
+     ],
+     [
+      25000.0,
+      0.043
+     ],
+     [
+      50000.0,
+      0.047
+     ],
+     [
+      100000.0,
+      0.049
+     ],
+     [
+      315000.0,
+      0.059000000000000004
+     ]
+    ]
+   },
+   "bracketsSource": "https://taxfoundation.org/data/all/state/state-income-tax-rates-2026/",
+   "bracketsAsOf": "2026-01-01",
+   "withholding": {
+    "rate": 0.06,
+    "verified": true,
+    "source": "https://www.nmlottery.com/2021/10/14/winners-claiming-prizes/",
+    "quote": "state taxes at the current rate of 6%",
+    "checkedOn": "2026-10-01"
+   }
+  },
+  {
+   "code": "NV",
+   "name": "Nevada",
+   "sellsPowerball": false,
+   "sellsMegaMillions": false,
+   "taxesLottery": false,
+   "brackets": {
+    "single": [],
+    "joint": []
+   },
+   "bracketsSource": "https://taxfoundation.org/data/all/state/state-income-tax-rates-2026/",
+   "bracketsAsOf": "2026-01-01",
+   "withholding": null
+  },
+  {
+   "code": "NY",
+   "name": "New York",
+   "sellsPowerball": true,
+   "sellsMegaMillions": true,
+   "taxesLottery": true,
+   "brackets": {
+    "single": [
+     [
+      0.0,
+      0.039
+     ],
+     [
+      8500.0,
+      0.044000000000000004
+     ],
+     [
+      11700.0,
+      0.051500000000000004
+     ],
+     [
+      13900.0,
+      0.054000000000000006
+     ],
+     [
+      80650.0,
+      0.059000000000000004
+     ],
+     [
+      215400.0,
+      0.06849999999999999
+     ],
+     [
+      1077550.0,
+      0.0965
+     ],
+     [
+      5000000.0,
+      0.10300000000000001
+     ],
+     [
+      25000000.0,
+      0.109
+     ]
+    ],
+    "joint": [
+     [
+      0.0,
+      0.039
+     ],
+     [
+      17150.0,
+      0.044000000000000004
+     ],
+     [
+      23600.0,
+      0.051500000000000004
+     ],
+     [
+      27900.0,
+      0.054000000000000006
+     ],
+     [
+      161550.0,
+      0.059000000000000004
+     ],
+     [
+      323200.0,
+      0.06849999999999999
+     ],
+     [
+      2155350.0,
+      0.0965
+     ],
+     [
+      5000000.0,
+      0.10300000000000001
+     ],
+     [
+      25000000.0,
+      0.109
+     ]
+    ]
+   },
+   "bracketsSource": "https://taxfoundation.org/data/all/state/state-income-tax-rates-2026/",
+   "bracketsAsOf": "2026-01-01",
+   "note": "New York withholds at the year's highest state rate; New York City and Yonkers residents owe city tax too.",
+   "withholding": {
+    "rate": 0.109,
+    "verified": true,
+    "rule": "topRate",
+    "source": "https://www.tax.ny.gov/pdf/publications/income/pub140w.pdf",
+    "quote": "the New York State Lottery is required by law to withhold tax using the highest effective rate of state tax for the year … If you are a resident of New York City or Yonkers, the prize payment(s) is also subject to city withholding at the city's highest effective rate of tax.",
+    "checkedOn": "2026-10-01",
+    "note": "规则来自 Publication 140-W；10.9% 为 2026 年纽约州最高税率（Tax Foundation 2026）"
+   }
+  },
+  {
+   "code": "OH",
+   "name": "Ohio",
+   "sellsPowerball": true,
+   "sellsMegaMillions": true,
+   "taxesLottery": true,
+   "brackets": {
+    "single": [
+     [
+      26050.0,
+      0.0275
+     ]
+    ],
+    "joint": [
+     [
+      26050.0,
+      0.0275
+     ]
+    ]
+   },
+   "bracketsSource": "https://taxfoundation.org/data/all/state/state-income-tax-rates-2026/",
+   "bracketsAsOf": "2026-01-01",
+   "note": "Many Ohio cities levy a local income tax (not included).",
+   "withholding": {
+    "rate": 0.0275,
+    "verified": true,
+    "source": "https://codes.ohio.gov/ohio-revised-code/section-5747.062",
+    "quote": "two and three-quarters per cent for calendar year 2026 and thereafter",
+    "checkedOn": "2026-10-05",
+    "note": "俄亥俄州法典 5747.062（2025-09-30 生效）：2026 年起彩票奖金按 2.75% 预扣，适用于需向 IRS 申报的奖金；门槛沿用联邦（超过 $5,000），彩票局领奖页 2026-10-05 打不开，未能对照"
+   }
+  },
+  {
+   "code": "OK",
+   "name": "Oklahoma",
+   "sellsPowerball": true,
+   "sellsMegaMillions": true,
+   "taxesLottery": true,
+   "brackets": {
+    "single": [
+     [
+      3750.0,
+      0.025
+     ],
+     [
+      4900.0,
+      0.035
+     ],
+     [
+      7200.0,
+      0.045
+     ]
+    ],
+    "joint": [
+     [
+      7500.0,
+      0.025
+     ],
+     [
+      9800.0,
+      0.035
+     ],
+     [
+      14400.0,
+      0.045
+     ]
+    ]
+   },
+   "bracketsSource": "https://taxfoundation.org/data/all/state/state-income-tax-rates-2026/",
+   "bracketsAsOf": "2026-01-01",
+   "withholding": {
+    "rate": null,
+    "verified": false,
+    "candidate": null,
+    "note": "未在官方页面原文核对到，页面显示“以州彩票局为准”"
+   }
+  },
+  {
+   "code": "OR",
+   "name": "Oregon",
+   "sellsPowerball": true,
+   "sellsMegaMillions": true,
+   "taxesLottery": true,
+   "brackets": {
+    "single": [
+     [
+      0.0,
+      0.0475
+     ],
+     [
+      4550.0,
+      0.0675
+     ],
+     [
+      11400.0,
+      0.0875
+     ],
+     [
+      125000.0,
+      0.099
+     ]
+    ],
+    "joint": [
+     [
+      0.0,
+      0.0475
+     ],
+     [
+      9100.0,
+      0.0675
+     ],
+     [
+      22800.0,
+      0.0875
+     ],
+     [
+      250000.0,
+      0.099
+     ]
+    ]
+   },
+   "bracketsSource": "https://taxfoundation.org/data/all/state/state-income-tax-rates-2026/",
+   "bracketsAsOf": "2026-01-01",
+   "withholding": {
+    "rate": 0.08,
+    "verified": true,
+    "source": "https://www.oregonlottery.org/claim-a-prize/",
+    "quote": "withholds an 8% state tax",
+    "checkedOn": "2026-10-01",
+    "threshold": 1500,
+    "thresholdRule": "atLeast",
+    "thresholdQuote": "The Oregon Lottery automatically withholds an 8% state tax on all prizes of $1,500 or more",
+    "thresholdCheckedOn": "2026-10-02"
+   }
+  },
+  {
+   "code": "PA",
+   "name": "Pennsylvania",
+   "sellsPowerball": true,
+   "sellsMegaMillions": true,
+   "taxesLottery": true,
+   "brackets": {
+    "single": [
+     [
+      0.0,
+      0.030699999999999998
+     ]
+    ],
+    "joint": [
+     [
+      0.0,
+      0.030699999999999998
+     ]
+    ]
+   },
+   "bracketsSource": "https://taxfoundation.org/data/all/state/state-income-tax-rates-2026/",
+   "bracketsAsOf": "2026-01-01",
+   "withholding": {
+    "rate": 0.0307,
+    "verified": true,
+    "source": "https://www.revenue.pa.gov/TaxTypes/PIT/Pages/Lottery-Winnings.aspx",
+    "quote": "personal income tax of 3.07 percent",
+    "checkedOn": "2026-10-01"
+   }
+  },
+  {
+   "code": "RI",
+   "name": "Rhode Island",
+   "sellsPowerball": true,
+   "sellsMegaMillions": true,
+   "taxesLottery": true,
+   "brackets": {
+    "single": [
+     [
+      0.0,
+      0.0375
+     ],
+     [
+      82050.0,
+      0.0475
+     ],
+     [
+      186450.0,
+      0.0599
+     ]
+    ],
+    "joint": [
+     [
+      0.0,
+      0.0375
+     ],
+     [
+      82050.0,
+      0.0475
+     ],
+     [
+      186450.0,
+      0.0599
+     ]
+    ]
+   },
+   "bracketsSource": "https://taxfoundation.org/data/all/state/state-income-tax-rates-2026/",
+   "bracketsAsOf": "2026-01-01",
+   "withholding": {
+    "rate": null,
+    "verified": false,
+    "candidate": 0.0599,
+    "note": "未在官方页面原文核对到，页面显示“以州彩票局为准”"
+   }
+  },
+  {
+   "code": "SC",
+   "name": "South Carolina",
+   "sellsPowerball": true,
+   "sellsMegaMillions": true,
+   "taxesLottery": true,
+   "brackets": {
+    "single": [
+     [
+      0.0,
+      0.0
+     ],
+     [
+      3640.0,
+      0.03
+     ],
+     [
+      18230.0,
+      0.06
+     ]
+    ],
+    "joint": [
+     [
+      0.0,
+      0.0
+     ],
+     [
+      3640.0,
+      0.03
+     ],
+     [
+      18230.0,
+      0.06
+     ]
+    ]
+   },
+   "bracketsSource": "https://taxfoundation.org/data/all/state/state-income-tax-rates-2026/",
+   "bracketsAsOf": "2026-01-01",
+   "withholding": {
+    "rate": null,
+    "verified": false,
+    "candidate": null,
+    "note": "未在官方页面原文核对到，页面显示“以州彩票局为准”"
+   }
+  },
+  {
+   "code": "SD",
+   "name": "South Dakota",
+   "sellsPowerball": true,
+   "sellsMegaMillions": true,
+   "taxesLottery": false,
+   "brackets": {
+    "single": [],
+    "joint": []
+   },
+   "bracketsSource": "https://taxfoundation.org/data/all/state/state-income-tax-rates-2026/",
+   "bracketsAsOf": "2026-01-01",
+   "withholding": {
+    "rate": 0.0,
+    "verified": true,
+    "source": "https://lottery.sd.gov/who-we-are/faqs/",
+    "quote": "The state of South Dakota does not tax lottery winnings",
+    "checkedOn": "2026-10-01"
+   }
+  },
+  {
+   "code": "TN",
+   "name": "Tennessee",
+   "sellsPowerball": true,
+   "sellsMegaMillions": true,
+   "taxesLottery": false,
+   "brackets": {
+    "single": [],
+    "joint": []
+   },
+   "bracketsSource": "https://taxfoundation.org/data/all/state/state-income-tax-rates-2026/",
+   "bracketsAsOf": "2026-01-01",
+   "withholding": {
+    "rate": 0.0,
+    "verified": true,
+    "source": "https://taxfoundation.org/data/all/state/state-income-tax-rates-2026/",
+    "quote": "no state income tax on wages/lottery (Tax Foundation 2026)",
+    "checkedOn": "2026-10-01"
+   }
+  },
+  {
+   "code": "TX",
+   "name": "Texas",
+   "sellsPowerball": true,
+   "sellsMegaMillions": true,
+   "taxesLottery": false,
+   "brackets": {
+    "single": [],
+    "joint": []
+   },
+   "bracketsSource": "https://taxfoundation.org/data/all/state/state-income-tax-rates-2026/",
+   "bracketsAsOf": "2026-01-01",
+   "withholding": {
+    "rate": 0.0,
+    "verified": true,
+    "source": "https://taxfoundation.org/data/all/state/state-income-tax-rates-2026/",
+    "quote": "no state income tax on wages/lottery (Tax Foundation 2026)",
+    "checkedOn": "2026-10-01"
+   }
+  },
+  {
+   "code": "UT",
+   "name": "Utah",
+   "sellsPowerball": false,
+   "sellsMegaMillions": false,
+   "taxesLottery": true,
+   "brackets": {
+    "single": [
+     [
+      0.0,
+      0.045
+     ]
+    ],
+    "joint": [
+     [
+      0.0,
+      0.045
+     ]
+    ]
+   },
+   "bracketsSource": "https://taxfoundation.org/data/all/state/state-income-tax-rates-2026/",
+   "bracketsAsOf": "2026-01-01",
+   "withholding": null
+  },
+  {
+   "code": "VA",
+   "name": "Virginia",
+   "sellsPowerball": true,
+   "sellsMegaMillions": true,
+   "taxesLottery": true,
+   "brackets": {
+    "single": [
+     [
+      0.0,
+      0.02
+     ],
+     [
+      3000.0,
+      0.03
+     ],
+     [
+      5000.0,
+      0.05
+     ],
+     [
+      17000.0,
+      0.0575
+     ]
+    ],
+    "joint": [
+     [
+      0.0,
+      0.02
+     ],
+     [
+      3000.0,
+      0.03
+     ],
+     [
+      5000.0,
+      0.05
+     ],
+     [
+      17000.0,
+      0.0575
+     ]
+    ]
+   },
+   "bracketsSource": "https://taxfoundation.org/data/all/state/state-income-tax-rates-2026/",
+   "bracketsAsOf": "2026-01-01",
+   "withholding": {
+    "rate": 0.04,
+    "verified": true,
+    "source": "https://www.valottery.com/winnersnews/claimprize",
+    "quote": "4% for state taxes",
+    "checkedOn": "2026-10-01"
+   }
+  },
+  {
+   "code": "VT",
+   "name": "Vermont",
+   "sellsPowerball": true,
+   "sellsMegaMillions": true,
+   "taxesLottery": true,
+   "brackets": {
+    "single": [
+     [
+      0.0,
+      0.0335
+     ],
+     [
+      49400.0,
+      0.066
+     ],
+     [
+      119700.0,
+      0.076
+     ],
+     [
+      249700.0,
+      0.0875
+     ]
+    ],
+    "joint": [
+     [
+      0.0,
+      0.0335
+     ],
+     [
+      82500.0,
+      0.066
+     ],
+     [
+      199450.0,
+      0.076
+     ],
+     [
+      304000.0,
+      0.0875
+     ]
+    ]
+   },
+   "bracketsSource": "https://taxfoundation.org/data/all/state/state-income-tax-rates-2026/",
+   "bracketsAsOf": "2026-01-01",
+   "withholding": {
+    "rate": 0.06,
+    "verified": true,
+    "source": "https://vtlottery.com/about/faq/what-if-i-win",
+    "quote": "Vermont State Income Tax Withholding of at least 6%",
+    "checkedOn": "2026-10-01"
+   }
+  },
+  {
+   "code": "WA",
+   "name": "Washington",
+   "sellsPowerball": true,
+   "sellsMegaMillions": true,
+   "taxesLottery": false,
+   "brackets": {
+    "single": [],
+    "joint": []
+   },
+   "bracketsSource": "https://taxfoundation.org/data/all/state/state-income-tax-rates-2026/",
+   "bracketsAsOf": "2026-01-01",
+   "withholding": {
+    "rate": 0.0,
+    "verified": true,
+    "source": "https://taxfoundation.org/data/all/state/state-income-tax-rates-2026/",
+    "quote": "no state income tax on wages/lottery (Tax Foundation 2026)",
+    "checkedOn": "2026-10-01"
+   }
+  },
+  {
+   "code": "WI",
+   "name": "Wisconsin",
+   "sellsPowerball": true,
+   "sellsMegaMillions": true,
+   "taxesLottery": true,
+   "brackets": {
+    "single": [
+     [
+      0.0,
+      0.035
+     ],
+     [
+      15110.0,
+      0.044000000000000004
+     ],
+     [
+      51950.0,
+      0.053
+     ],
+     [
+      332720.0,
+      0.0765
+     ]
+    ],
+    "joint": [
+     [
+      0.0,
+      0.035
+     ],
+     [
+      20150.0,
+      0.044000000000000004
+     ],
+     [
+      69260.0,
+      0.053
+     ],
+     [
+      443630.0,
+      0.0765
+     ]
+    ]
+   },
+   "bracketsSource": "https://taxfoundation.org/data/all/state/state-income-tax-rates-2026/",
+   "bracketsAsOf": "2026-01-01",
+   "withholding": {
+    "rate": 0.0765,
+    "verified": true,
+    "source": "https://wilottery.com/node/1623",
+    "quote": "State tax of 7.65%",
+    "checkedOn": "2026-10-01"
+   }
+  },
+  {
+   "code": "WV",
+   "name": "West Virginia",
+   "sellsPowerball": true,
+   "sellsMegaMillions": true,
+   "taxesLottery": true,
+   "brackets": {
+    "single": [
+     [
+      0.0,
+      0.0222
+     ],
+     [
+      10000.0,
+      0.0296
+     ],
+     [
+      25000.0,
+      0.0333
+     ],
+     [
+      40000.0,
+      0.0444
+     ],
+     [
+      60000.0,
+      0.0482
+     ]
+    ],
+    "joint": [
+     [
+      0.0,
+      0.0222
+     ],
+     [
+      10000.0,
+      0.0296
+     ],
+     [
+      25000.0,
+      0.0333
+     ],
+     [
+      40000.0,
+      0.0444
+     ],
+     [
+      60000.0,
+      0.0482
+     ]
+    ]
+   },
+   "bracketsSource": "https://taxfoundation.org/data/all/state/state-income-tax-rates-2026/",
+   "bracketsAsOf": "2026-01-01",
+   "withholding": {
+    "rate": null,
+    "verified": false,
+    "candidate": null,
+    "note": "未在官方页面原文核对到，页面显示“以州彩票局为准”"
+   }
+  },
+  {
+   "code": "WY",
+   "name": "Wyoming",
+   "sellsPowerball": true,
+   "sellsMegaMillions": true,
+   "taxesLottery": false,
+   "brackets": {
+    "single": [],
+    "joint": []
+   },
+   "bracketsSource": "https://taxfoundation.org/data/all/state/state-income-tax-rates-2026/",
+   "bracketsAsOf": "2026-01-01",
+   "withholding": {
+    "rate": 0.0,
+    "verified": true,
+    "source": "https://taxfoundation.org/data/all/state/state-income-tax-rates-2026/",
+    "quote": "no state income tax on wages/lottery (Tax Foundation 2026)",
+    "checkedOn": "2026-10-01"
+   }
+  }
+ ],
+ "local": {
+  "NYC": {
+   "name": "New York City",
+   "state": "NY",
+   "type": "brackets",
+   "brackets": {
+    "single": [
+     [
+      0,
+      0.03078
+     ],
+     [
+      12000,
+      0.03762
+     ],
+     [
+      25000,
+      0.03819
+     ],
+     [
+      50000,
+      0.03876
+     ]
+    ],
+    "joint": [
+     [
+      0,
+      0.03078
+     ],
+     [
+      21600,
+      0.03762
+     ],
+     [
+      45000,
+      0.03819
+     ],
+     [
+      90000,
+      0.03876
+     ]
+    ],
+    "headOfHousehold": [
+     [
+      0,
+      0.03078
+     ],
+     [
+      14400,
+      0.03762
+     ],
+     [
+      30000,
+      0.03819
+     ],
+     [
+      60000,
+      0.03876
+     ]
+    ]
+   },
+   "source": "https://www.tax.ny.gov/pdf/current_forms/it/it201i.pdf",
+   "asOf": "tax year 2025 (IT-201-I 2025)",
+   "note": "NYC rate schedule (IT-201-I 2025). 校验：$12,000×3.078%=$369、$21,600×3.078%=$665，与原文“$369 plus 3.762%”“$665 plus 3.762%”一致",
+   "withholdingRate": 0.03876
+  },
+  "YONKERS": {
+   "name": "Yonkers",
+   "state": "NY",
+   "type": "surcharge",
+   "rateOfStateTax": 0.1675,
+   "source": "https://www.tax.ny.gov/pdf/current_forms/it/it201i.pdf",
+   "asOf": "tax year 2025 (IT-201-I 2025)",
+   "note": "Resident surcharge = 16.75% of net New York State tax",
+   "withholdingRate": 0.018257,
+   "withholdingNote": "按州最高税率 10.9% × 16.75% 推算"
+  },
+  "MD_COUNTY": {
+   "name": "Maryland county tax (average)",
+   "state": "MD",
+   "type": "countyAverage",
+   "rates": {
+    "Allegany": 0.032,
+    "Anne Arundel": 0.032,
+    "Baltimore County": 0.032,
+    "Calvert": 0.032,
+    "Caroline": 0.032,
+    "Carroll": 0.0303,
+    "Cecil": 0.0274,
+    "Charles": 0.0303,
+    "Dorchester": 0.033,
+    "Frederick": 0.032,
+    "Garrett": 0.0265,
+    "Harford": 0.0306,
+    "Howard": 0.032,
+    "Kent": 0.033,
+    "Montgomery": 0.032,
+    "Prince George's": 0.032,
+    "Queen Anne's": 0.032,
+    "St. Mary's": 0.032,
+    "Somerset": 0.032,
+    "Talbot": 0.024,
+    "Washington": 0.0295,
+    "Wicomico": 0.032,
+    "Worcester": 0.0225,
+    "Baltimore City": 0.032
+   },
+   "source": "https://www.marylandcomptroller.gov/content/dam/mdcomp/tax/legal-publications/facts/withholding-tax-facts-2026.pdf",
+   "asOf": "tax year 2026 (Withholding Tax Facts, January 2026)",
+   "checkedOn": "2026-10-02",
+   "note": "安妮阿伦德尔、弗雷德里克为累进税率，取高收入适用的最高档 3.20%（彩票大奖基本落在最高档）；引擎用 24 个辖区的简单平均，按奖金增量 × 平均税率计算，不计州的扣除额。马里兰居民领奖预扣 9.5% 已包含州与地方，不另加地方预扣。"
+  }
+ }
+}
